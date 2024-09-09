@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 
 import * as Sentry from '@sentry/react';
 
+export const runtime = "edge";
+
 const App = () => {
   return (
     <main className="bg-black">
